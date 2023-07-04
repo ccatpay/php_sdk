@@ -14,7 +14,7 @@
 # 安裝
 建議使用 Composer 安裝
 ```
- composer require ccatpay/PHP_SDK
+ composer require ccatpay/php_sdk
 ```
 # 使用
 請參考 [範例](https://github.com/ccatpay/PHP_SDK/tree/main/example) 
