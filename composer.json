@@ -10,7 +10,6 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "other/package": "1.0.0",
     "php": ">=5.6",
     "ext-curl": "*",
     "ext-json": "*"
