@@ -1,21 +1,22 @@
 {
-    "name": "ccatpay/php_sdk",
-    "description": "多元支付平台PHP SDK",
-    "type": "library",
-    "require": {
-		"php": ">=5.6",
-		"ext-curl": "*",
-		"ext-json": "*"
-    },
-    "license": "MIT",
-    "require-dev": {
-		"php": ">=5.6",
-		"ext-curl": "*",
-		"ext-json": "*"
-    },
-    "autoload": {
-        "psr-4": {
-			  "Pay\\": "src/pay/"
-        }
+  "name": "ccatpay/php_sdk",
+  "description": "多元支付平台PHP SDK",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ccatpay",
+      "email": "mps@ccat.com.tw"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pay\\": "src/pay/"
+    }
+  }
 }
