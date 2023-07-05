@@ -8,7 +8,6 @@
       "email": "mps@ccat.com.tw"
     }
   ],
-  "minimum-stability": "dev",  
   "require": {
     "ccatpay/php_sdk": "dev-main",
     "php": ">=5.6",
