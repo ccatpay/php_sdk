@@ -16,10 +16,10 @@ class CurlTool
         if ($post) {
             curl_setopt($ch, CURLOPT_POST, 1);
         }
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 50);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 50);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($ch, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
 
         $headers = [];
         if ($isJson) {
